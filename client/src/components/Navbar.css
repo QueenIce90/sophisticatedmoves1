@@ -1,0 +1,83 @@
+.navbar {
+    background-color: #000;
+    padding: 5px 0;
+    text-align: center;
+    
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+/* Scroll Spy Styling */
+.navbar a {
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+    display: inline-block;
+    transition: background-color 0.3s;
+}
+/* Navbar.css */
+/* .navbar {
+    display: flex;
+} */
+
+.navbar-link {
+    text-decoration: none;
+    color: #fff;
+    margin-right: 10px;
+    font-weight: bold;
+    transition: color 0.3s ease-in-out;
+}
+
+.navbar-link:hover {
+    color: #bf9b1d; /* Gold */
+}
+
+.navbar button{
+    color: #fff;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif,sans-serif; 
+    font-weight: bold;
+    background-color: #bf9b1d; /* Gold */
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+
+}
+
+.navbar button:hover {
+    background-color: black; /* Dark gold */
+}
+.logo{
+    width: 100px;
+    height: 100px;
+
+}
+
+@media screen and (max-width: 200px) {
+
+
+.navbar-links {
+    display: none;
+}
+
+.navbar button {
+    display: block;
+    margin: 10px 0;
+}
+
+
+
+}
+
+
+
+
+
+
+
+

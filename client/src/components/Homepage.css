@@ -1,0 +1,49 @@
+/* HomePage.css */
+
+/* Global Styles */
+.homepage {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+}
+
+.moving-truck-container-home {
+    padding-top: 120px;
+    min-height: 100vh; /* Ensure container takes at least the full viewport height */
+
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+}
+
+.navbar {
+    background-color: #000;
+    padding: 20px;
+    text-align: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 999;
+}
+
+
+/* Moving Truck Image Styles */
+.copyright{
+    width: 100%;
+    text-align: center ;
+    padding: 25px, 0;
+    background: #262626;
+    font-weight: 300;
+    margin-top: 20px;
+}
+.copyright i {
+    color: white;
+}
+
+
+
+
+

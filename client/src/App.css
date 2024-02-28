@@ -1,0 +1,99 @@
+
+
+.App {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; /* Ensure the container takes at least the full viewport height */
+}
+
+:root {
+  --bg-color: black;
+  --text-color: white; 
+}
+
+.dark-mode {
+  --bg-color: white;
+  --text-color: black;
+}
+
+body {
+  background: var(--bg-color); 
+  color: var(--text-color);
+}
+
+body, html {
+margin: 0;
+padding: 0;
+background-color: #000; /* Set the background color to black */
+height: 100%;
+}
+
+
+/* App.css */
+
+.lightmode {
+  background: white;
+  color: rgb(139, 121, 18);
+}
+
+
+.darkmode {
+  background-color: black;
+  color: white;
+}
+
+.dark-mode-button {
+  background-color: #000;
+  color: white;
+  margin-left: 255px;
+  margin-bottom: 30px;
+  border-radius: 10px;
+  border: 1px solid;
+  padding: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.dark-mode-button:hover {
+  background-color: white;
+  color: black;
+}
+
+
+
+
+.App-logo {
+height: 40vmin;
+pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+}
+}
+
+.App-header {
+background-color: #282c34;
+min-height: 100vh;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+font-size: calc(10px + 2vmin);
+color: white;
+}
+
+.App-link {
+color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+from {
+  transform: rotate(0deg);
+}
+to {
+  transform: rotate(360deg);
+}
+}
+

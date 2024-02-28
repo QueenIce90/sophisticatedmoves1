@@ -1,0 +1,44 @@
+/* ServicePage.css */
+
+.service-page {
+    padding: 20px;
+    padding-top: 140px;
+}
+
+.service-header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.service-list {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+}
+
+.service-item {
+    margin-bottom: 20px;
+
+}
+
+.service-item h3 {
+    color: #ffcc00; /* Dark gold color */
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.5em;
+}
+
+
+.service-item p {
+    color: #fff; /* White color */
+}
+
+
+
+.material-symbols-outlined{
+    color: white;
+}
+
+.moving-truck-container {
+    margin-top: 4000px;
+    
+}

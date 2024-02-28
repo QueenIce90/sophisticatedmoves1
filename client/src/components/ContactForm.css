@@ -1,0 +1,242 @@
+
+
+
+/* ContactForm.css */
+
+.contact{
+    padding-top: 70px;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+
+form {
+    text-align: center;
+    flex-direction: column;
+
+    
+}
+
+
+.form-header h2{
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    margin-top: 20px;
+
+}
+.form-header span{
+    color: #fff;
+}
+.label{
+    color: black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+input,
+textarea {
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #bf9b1d; /* Gold border */
+    border-radius: 3px;
+    color: #000; /* Black text on gold background */
+    background-color: transparent;
+}
+#message {
+    
+    color: #000000; /* White text color */
+}
+
+#name {
+    color: #000000;
+}
+
+#email {
+    color: #000000;
+}
+
+.submit-button {
+    background-color: #bf9b1d; /* Gold */
+    color: white; /*Black text on gold background */
+    border: 1px solid #e8e6df;
+    border-radius: 20px;
+    padding: 10px;
+    padding-top: 10px;
+    margin-top: 20px;
+    cursor: pointer;
+    transition: all;
+}
+
+.submit-button:hover {
+    background-color: #000; /* Black text on gold background */
+    color: #bf9b1d; /* Gold */
+}
+
+.contact-left{
+    flex-basis: 35%;
+}
+
+.contact-right{
+    flex-basis: 60%;
+}
+
+.contact-left p{
+    margin-top: 30px;
+}
+.contact-left p i {
+    color: #ff004f;
+    margin-right: 15px;
+    font-size: 25px;
+}
+
+.contact-right form {
+    width: 100%
+}
+
+form input, form textarea {
+    width: 100%;
+    border: 0;
+    outline: none;
+    background: #262626;
+    padding: 15px;
+    margin: 15px 0;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 6px;
+    transition: all;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva,
+    Verdana, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+
+}
+
+#msg {
+    color: #bf9b1d;
+    margin-top: 10px;
+    display: block;
+    text-align: center;
+}
+
+.sub-title{
+    color: white;
+    font-family: 'Grande', 'Lucida Sans Unicode', Geneva, Verdana;
+    font-size: 60px;
+    font-weight: 700;
+    margin-top: 20px;
+    text-align: center;
+    padding-bottom: 50px;
+    
+}
+
+.contact-desc{
+    color: #bf9b1d;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva,
+    Verdana, sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+}
+.btn-btn2{
+    background-color: #bf9b1d;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva,
+    Verdana, sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+    padding: 10px;
+    padding-top: 10px;
+    margin-top: 20px;
+    cursor: pointer;
+    transition: all;
+}
+.btn-btn2:hover{
+    background-color: #000;
+    color: #bf9b1d;
+}
+.contact{
+    color: #fff;
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+.contact-left{
+    padding-top: 10%;
+    
+
+}
+
+.logo{
+    width: 100px;
+    height: 100px;
+
+}
+
+.contact-title{
+    color: #bf9b1d;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva,
+    Verdana, sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+    text-align: center;
+    cursor: pointer;
+    margin-top: -60px;
+}
+
+h5{
+    color: #bf9b1d;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva,
+    Verdana, sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    cursor: pointer;
+}
+h5 :hover{
+    color: #000;
+    cursor: pointer;
+}
+
+.contact-us{
+    color: gray;
+    font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial;
+    font-size: 20px;
+    font-weight: 400;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+    text-align: center;
+}
+
+.contact-us :hover{
+    color: #bf9b1d;
+    cursor: pointer;
+    
+
+}
