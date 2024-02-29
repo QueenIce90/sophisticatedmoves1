@@ -12,7 +12,7 @@ return (
 
 
     <div className='image'>
-        <img src={process.env.PUBLIC_URL + "/5.png"} alt="moving truck" />  
+        <img src= "/5.png" alt="moving truck" />  
     </div>
 
     <div className="service-list">

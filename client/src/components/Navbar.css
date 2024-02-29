@@ -69,17 +69,6 @@ ul {
         display: block;
         margin: 10px 0;
     }
-    .navbar {
-        background-color: #000;
-        padding: 0px;
-        text-align: right;
-        position: fixed;
-        top: -7%;
-        left: 0;
-        right: 0;
-        height: fit-content;
-        width: fit-content;
-    }
     
     }
 
