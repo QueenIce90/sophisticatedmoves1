@@ -7,37 +7,28 @@ function NavBar() {
     
     return (
     <div className="navbar">
+        <ul>
         <img className="logo" src='/logo.png' alt="logo"/>
-        
-        <NavLink to="/">
-        <button className="navbar-button">Home</button>
-        </NavLink>
+        </ul>
+        <ul>
+            <NavLink to="/">
+            <button className="navbar-button">Home</button>
+            </NavLink>
 
-        <NavLink to="/services">
-        <button className="navbar-button">Services</button>
-        </NavLink>
+            <NavLink to="/services">
+            <button className="navbar-button">Services</button>
+            </NavLink>
 
-        <NavLink to="/contact">
-        <button className="navbar-button">Contact Us</button>
-        </NavLink>
+            <NavLink to="/contact">
+            <button className="navbar-button">Contact Us</button>
+            </NavLink>
 
-        <NavLink to="/quote">
-        <button className="navbar-button">Free Quote</button>
-        </NavLink>
-
-
-
-
-
-        {/* <NavLink to="/products">
-        <button className="navbar-button">Shop</button>  
-        </NavLink> */}
-
-        {/* <NavLink to ="/quote">
-        <button className="navbar-button">Free Quote</button>
-        </NavLink> */}
-        
-        
+            <NavLink to="/quote">
+            <button className="navbar-button">Free Quote</button>
+            </NavLink>
+            <span class="material-symbols-outlined">close</span>
+    </ul>
+        <span class="material-symbols-outlined">menu</span>
     </div>
     );
 }

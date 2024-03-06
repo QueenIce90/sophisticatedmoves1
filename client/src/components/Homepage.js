@@ -20,12 +20,12 @@ return (
         </section>
         {/* <img src={process.env.PUBLIC_URL + '/images/myimage.jpg'} alt="My Image" /> */}
         <div className="moving-truck-container-home">
-        <img src='/1.png' alt="Moving Truck 1" onClick={() => window.location.href = '/contact'} />
-        <img src='/3.png' alt="Moving Truck 2" onClick={() => window.location.href = '/contact'} />
-        <img src='/2.png' alt="Moving Truck 3" onClick={() => window.location.href = '/contact'} />
+        <img src='/1.jpg' alt="Moving Truck 1" />
+        <img src='/3.jpg' alt="Moving Truck 2" />
+        <img src='/2.jpg' alt="Moving Truck 3" />
         <img src='/4.png' alt="Moving Truck 4" />
         <img src='/5.png' alt="Moving Truck 5" />
-        <img src='/6.png' alt="Moving Truck 6" onClick={() => window.location.href = '/products'} /> 
+        <img src='/6.png' alt="Moving Truck 6" /> 
         </div>
     </div>
     <div className='copyright'>
